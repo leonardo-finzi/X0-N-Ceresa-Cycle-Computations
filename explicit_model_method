@@ -62,7 +62,7 @@ function DefiningIdeal(d,sturm,Qx,basis)
 end function;
 
 // Computes the order of the shadow of w_N mod coprime (coprime has good reduction)
-function ProjModelChecker(N,coprime)
+function EMM(N,coprime)
 	G := Gamma0(N);
 	g := Genus(G);
 	// This bound is selected because it is the largest value for which q-expansions can be distinguished (with some extra room just in case).
